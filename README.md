@@ -1,5 +1,6 @@
 # DMI Deaths Classification
 
+Full PDF presentation available as **dmi-classification.presentation.pdf**
 
 ## Project, Data, and General Approach
 
@@ -59,7 +60,7 @@ This project will address whether machine learning techniques can be used to tra
 * Precision, also known as positive predictive value, is the proportion of records predicted to be in the positive class (in this case a DMI death) that were correctly classified (TP/TP+FP).
 * Specificity, also known as true negative rate, is the proportion of records in the negative class that were accurately predicted (TN/TN+FP).  
 
-We wish to maximize these two metrics as the problem demands that we find a solution that accurately determines whether a record is in the positive class (DMI death) or not and reduces or avoids instances of false positives. Current programs within NCHS that rely on exact pattern matching achieve a precision score of 95.1 percent on the DMI class. The objective of this project is to find a solution that exceeds this baseline. 
+We wish to maximize these two metrics as the problem demands that we find a solution that accurately determines whether a record is in the positive class (DMI death) or not and reduces or avoids instances of false positives. Current programs within NCHS that rely on exact pattern matching achieve a precision score of 95.8 percent on the DMI class. The objective of this project is to find a solution that exceeds this baseline. 
 
 The linked dataset will be converted to a term-frequency matrix that stores each word/term as a 1 if the term is used in a given record and 0 if it is not. As discussed previously, a derived feature will be created using existing ICD codes and flagged drug mentions to identify whether a record is a DMI death or not.
 
