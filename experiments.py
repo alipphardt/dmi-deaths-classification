@@ -1,12 +1,4 @@
 
-# coding: utf-8
-
-# # CS737 Final Project
-# Author: Anthony Lipphardt
-# 
-# Date: April 23, 2018
-
-# In[9]:
 
 
 import pandas as pd
@@ -34,7 +26,7 @@ from sklearn.metrics import classification_report
 # In[2]:
 
 
-literal_text = pd.read_csv('literal-text.csv', index_col=0)
+literal_text = pd.read_csv('data/literal-text.csv', index_col=0)
 literal_text.head()
 
 

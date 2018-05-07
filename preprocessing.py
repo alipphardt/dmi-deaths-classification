@@ -23,14 +23,14 @@ import pandas as pd
 # In[2]:
 
 
-deaths2015 = pd.read_excel('2015-deaths-annual-file.csv')
+deaths2015 = pd.read_excel('data/2015-deaths-annual-file.csv')
 deaths2015.head()
 
 
 # In[3]:
 
 
-deaths2016 = pd.read_excel('2016-deaths-annual-file.csv')
+deaths2016 = pd.read_excel('data/2016-deaths-annual-file.csv')
 deaths2016.head()
 
 
@@ -148,8 +148,8 @@ deaths.groupby('DMI')['DMI'].count()
 
 
 # Load 2015 and 2016 literal text files
-literals2016 = pd.read_csv('2016-deaths-literal-text.csv', encoding='latin1')
-literals2015 = pd.read_csv('2015-deaths-literal-text.csv', encoding='latin1')
+literals2016 = pd.read_csv('data/2016-deaths-literal-text.csv', encoding='latin1')
+literals2015 = pd.read_csv('data/2015-deaths-literal-text.csv', encoding='latin1')
 
 
 # In[52]:
