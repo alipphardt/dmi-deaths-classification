@@ -1,6 +1,6 @@
 # DMI Deaths Classification
 
-Full PDF presentation available as **dmi-classification.presentation.pdf**
+Full PDF presentation available as [dmi-classification.presentation.pdf](https://github.com/alipphardt/dmi-deaths-classification/blob/master/dmi-classification-presentation.pdf)
 
 ## Project, Data, and General Approach
 
